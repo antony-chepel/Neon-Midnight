@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:padding="10dp"
         android:layout_height="match_parent"
-        android:background="@color/bg_main"
+        android:background="@drawable/bg"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,16 +32,13 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="20dp"
-            android:layout_margin="10dp"
             android:gravity="center">
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/heart_game_text" />
+                app:srcCompat="@drawable/neon_text_find" />
         </LinearLayout>
 
         <TableRow

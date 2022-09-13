@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".blackneon.MainActivity"
-    android:background="@color/bg_main">
+    android:background="@drawable/bg">
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="180dp"
