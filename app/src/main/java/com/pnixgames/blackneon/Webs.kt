@@ -41,7 +41,7 @@ class Webs : AppCompatActivity() {
         val cookieManager = CookieManager.getInstance()
         cookieManager.setAcceptCookie(true)
         cookieManager.setAcceptThirdPartyCookies(vv, true)
-        ksisiadw()
+        shsdttwqdqw()
         val activity: Activity = this
 
         vv.webViewClient = object : WebViewClient() {
@@ -161,12 +161,12 @@ class Webs : AppCompatActivity() {
 
         }
 
-        vv.loadUrl(lkjjhshdw())
+        vv.loadUrl(shhdhwqdwdq())
     }
 
 
 
-    fun uwywyqeqweq(string: String){
+    fun sgwqdtqwdqw(string: String){
 // Setting External User Id with Callback Available in SDK Version 4.0.0+
         OneSignal.setExternalUserId(
             string,
@@ -219,7 +219,7 @@ class Webs : AppCompatActivity() {
             })
     }
 
-    private fun ksisiadw() {
+    private fun shsdttwqdqw() {
         val webSettings = vv.settings
         webSettings.javaScriptEnabled = true
 
@@ -244,7 +244,7 @@ class Webs : AppCompatActivity() {
         webSettings.allowContentAccess = true
     }
 
-    private fun lkjjhshdw(): String {
+    private fun shhdhwqdwdq(): String {
 
         val spoon = getSharedPreferences("SP_WEBVIEW_PREFS", AppCompatActivity.MODE_PRIVATE)
         val cpOne: String? = Hawk.get(C1)
@@ -284,7 +284,7 @@ class Webs : AppCompatActivity() {
                 "$resultAB$one$dpOne&$two$afId&$three$mainid&$four$pack&$five$androidVersion&$six$linkornull"
         }
         Log.d("TESTAG", "Test Result $after")
-        uwywyqeqweq(afId.toString())
+        sgwqdtqwdqw(afId.toString())
         return spoon.getString("SAVED_URL", after).toString()
     }
 

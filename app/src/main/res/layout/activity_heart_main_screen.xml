@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -22,7 +21,7 @@
         android:layout_width="match_parent"
         android:padding="10dp"
         android:layout_height="match_parent"
-        android:background="@drawable/bg"
+        android:background="@drawable/bg_neon"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

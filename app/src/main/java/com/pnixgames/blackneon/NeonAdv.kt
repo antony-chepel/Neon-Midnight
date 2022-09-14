@@ -9,7 +9,7 @@ import kotlinx.coroutines.withContext
 class NeonAdv(val context: Context) {
     private val jsdoeiwe = AdvertisingIdClient(context.applicationContext)
 
-    suspend fun sacjacac(): String =
+    suspend fun hsyydwqqw(): String =
         withContext(Dispatchers.IO) {
             jsdoeiwe.start()
             val adIdInfo = jsdoeiwe.info

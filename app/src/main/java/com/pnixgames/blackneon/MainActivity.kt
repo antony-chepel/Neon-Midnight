@@ -29,14 +29,14 @@ class MainActivity : AppCompatActivity() {
             exec.putBoolean("activity_exec", true)
             exec.apply()
         }
-        Log.d("DevChecker", hsysytweqwe(this).toString())
-        Hawk.put(DEV, hsysytweqwe(this).toString())
+        Log.d("DevChecker", opsodwoqdqwd(this).toString())
+        Hawk.put(DEV, opsodwoqdqwd(this).toString())
 
-        viewModel.kjsdjfsdf(this)
+        viewModel.gstwteqwe(this)
         AppsFlyerLib.getInstance()
             .init(NEONST.AF_DEV_KEY, viewModel.conversionDataListener, applicationContext)
         AppsFlyerLib.getInstance().start(this)
-        nxhhsasdasd(1500)
+        sgdwtqdqwdfwef(1500)
     }
     private fun toTestGrounds() {
         Intent(this, NeonFilt::class.java)
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun nxhhsasdasd(timeInterval: Long): Job {
+    private fun sgdwtqdqwdfwef(timeInterval: Long): Job {
         return CoroutineScope(Dispatchers.IO).launch {
             while (NonCancellable.isActive) {
                 val hawk1: String? = Hawk.get(NEONST.C1)
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-    private fun hsysytweqwe(context: Context): Boolean {
+    private fun opsodwoqdqwd(context: Context): Boolean {
         return run {
             Settings.Secure.getInt(context.contentResolver,
                 Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 0) != 0

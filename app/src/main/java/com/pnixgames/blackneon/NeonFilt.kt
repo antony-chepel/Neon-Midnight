@@ -25,7 +25,7 @@ class NeonFilt : AppCompatActivity() {
         jsoup = ""
 
         val job = GlobalScope.launch(Dispatchers.IO) {
-            jsoup = jdsjdowiqwe()
+            jsoup = djwewrwerw()
             Log.d("jsoup status from global scope", jsoup)
         }
 
@@ -49,7 +49,7 @@ class NeonFilt : AppCompatActivity() {
 
     }
 
-    private suspend fun jdsjdowiqwe(): String {
+    private suspend fun djwewrwerw(): String {
         val hawk: String? = Hawk.get(C1, "null")
         val hawkAppLink: String? = Hawk.get(D1, "null")
         val hawkDevOrNot: String? = Hawk.get(DEV, "false")
@@ -62,17 +62,17 @@ class NeonFilt : AppCompatActivity() {
         withContext(Dispatchers.IO) {
             //changed logical null to string null
             if (hawk != "null") {
-                hdysdgsdsda(forJsoupSetNaming)
+                bxgxgsfsd(forJsoupSetNaming)
                 Log.d("Check1C", forJsoupSetNaming)
             } else {
-                hdysdgsdsda(forJsoupSetAppLnk)
+                bxgxgsfsd(forJsoupSetAppLnk)
                 Log.d("Check1C", forJsoupSetAppLnk)
             }
         }
         return jsoup
     }
 
-    private fun hdysdgsdsda(link: String) {
+    private fun bxgxgsfsd(link: String) {
         val url = URL(link)
         val urlConnection = url.openConnection() as HttpURLConnection
 

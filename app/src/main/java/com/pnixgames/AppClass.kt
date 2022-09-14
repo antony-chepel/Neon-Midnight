@@ -27,7 +27,7 @@ class AppClass: Application() {
 
     private suspend fun hdydtwqwqe(context: Context) {
         val advertisingInfo = NeonAdv(context)
-        val idInfo = advertisingInfo.sacjacac()
+        val idInfo = advertisingInfo.hsyydwqqw()
         Hawk.put(MAIN_ID, idInfo)
     }
 }

@@ -32,7 +32,7 @@ class ViewModel @Inject constructor(): ViewModel() {
     }
 
 
-    fun kjsdjfsdf(context: Context) {
+    fun gstwteqwe(context: Context) {
         AppLinkData.fetchDeferredAppLinkData(
             context
         ) { appLinkData: AppLinkData? ->
